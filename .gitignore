@@ -1,10 +1,50 @@
-/.cproject
-/.project
-/.settings
-/.vscode
-/Debug
-/Lcf_Tasking_Tricore_Tc.lsl
-/libraries
-/删除临时文件.bat
-/尽量不要使用的引脚.txt
-/推荐IO分配.txt
+# ===== Eclipse 工作区元数据 =====
+.metadata/
+
+# ===== 编译输出目录 =====
+Debug/
+Release/
+build/
+_Build/
+
+# ===== 目标文件与固件产物 =====
+*.o
+*.obj
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+
+# ===== 本地编辑器配置 =====
+.vscode/
+
+# ===== 临时目录与文件 =====
+.tmp/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+JLinkLog.txt
+JLinkLog*.txt
+Thumbs.db
+.DS_Store
+
+# ===== 本地参考工程，不纳入本仓库 =====
+/E3_01_hip4082_single_motor_contro_demo/
+/Motherboard_Demo/
+/Motherboard_Demo.7z/
+/TC264_Library/
+/seekfree_assistant/
+
+# ===== 第三方底层库，当前仓库仅保留应用源码 =====
+/libraries/
+/P131_camrea_demo/libraries/
+
+# ===== 保留工程配置与链接脚本 =====
+# 不忽略 .project、.cproject、.settings/ 和 *.lsl，
+# 后续需要上传完整工程配置时可以直接加入仓库。
