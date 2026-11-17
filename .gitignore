@@ -1,0 +1,10 @@
+/.cproject
+/.project
+/.settings
+/.vscode
+/Debug
+/Lcf_Tasking_Tricore_Tc.lsl
+/libraries
+/删除临时文件.bat
+/尽量不要使用的引脚.txt
+/推荐IO分配.txt
